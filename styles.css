@@ -1,0 +1,38 @@
+﻿header.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+   justify-content:flex-end;
+   width:90%;
+}
+header h1 {
+    margin-bottom: 50px;
+    display:flex;
+}
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+
+}
+section {
+    padding: 40px 0;
+    display:flex;
+    justify-content: center;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+footer{
+    display:flex;
+   justify-content:center;
+}
