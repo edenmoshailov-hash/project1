@@ -3,10 +3,8 @@
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
-    align-items:center;
-   
 }
-nav ul {
+.nav1 ul {
     list-style: none;
     display: flex;
     gap: 15px;
@@ -14,10 +12,7 @@ nav ul {
    width:90%;
    align-items:center;
 }
-nav {
-    display: flex;
-    align-items: center;
-}
+
 header.container h1 {
     margin-bottom: 50px;
     display:flex;
@@ -26,7 +21,18 @@ header {
     background: #333;
     color: #fff;
     padding: 20px 0;
-
+    border-radius:60px;
+}
+.header__wrap img{
+   
+    height:50px;
+    width:50px;
+}
+.header__head {
+    width:130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 section .container{
     padding: 40px 0;
@@ -40,7 +46,80 @@ img {
     height: 300px;
     width:500px;
 }
-footer{
+footer.container {
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container{
+    width:90%;
+    max-width:1200px;
+    margin: 0 auto;
+}
+.header__wrap{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+footer {
+    background: #333;
+    color: #fff;
+    padding: 50px 0;
+    border-radius:60px;
+}
+.footer__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:7px;
+    gap:15px;
+}
+.bestplayers{
+    display:flex;
+    flex-direction:column;
+}
+.footer__wrap img{
+    height:40px;
+    width:40px;
+    border-radius:50%;
+    
+}
+.footer__foot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:15px;
+    padding-top:10px;
+    margin-left:7px;
+}
+.footer1{
+    display:flex;           
+    justify-content:center;
+    font-size:40px;
+}
+body{
+    background-color:antiquewhite;
+}
+.more{
     display:flex;
    justify-content:center;
+   margin-left:10px;
 }
+.nav2 ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    justify-content:center;
+   margin-right: 27px;
+  
+}
+.logo{
+    display:flex;
+    justify-content:center;
+    padding-top:10px;
+}
+    .logo img {
+        height: 80px;
+        width: 80px;
+    }
