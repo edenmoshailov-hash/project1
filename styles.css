@@ -68,23 +68,12 @@ footer {
     padding: 50px 0;
     border-radius:60px;
 }
-.footer__wrap {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left:7px;
-    gap:15px;
-}
+
 .bestplayers{
     display:flex;
     flex-direction:column;
 }
-.footer__wrap img{
-    height:40px;
-    width:40px;
-    border-radius:50%;
-    
-}
+
 .footer__foot {
     display: flex;
     align-items: center;
@@ -123,3 +112,8 @@ body{
         height: 80px;
         width: 80px;
     }
+.footer__foot img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
