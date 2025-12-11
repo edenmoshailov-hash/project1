@@ -85,6 +85,7 @@
                         <h4>services</h4>
                         <p>example</p>
                     </div>
+
                 </div>
                 <details>
                     <summary>more</summary>
@@ -94,7 +95,30 @@
                     <span class="time">14:30</span>
                     <span class="views">views: 1234</span>
                 </div>
-                
+                <div class="likebutton">
+                    <button id="likeBtn" oneclick="audio.play();">Like</button>
+                    <button id="dislikeBtn">Dislike</button>
+                </div>
+                <audio id="likeSound1" src="audios/Fnaf 2 6：AM.mp3" hidden></audio>
+                <script>
+                    const likeBtn = document.getElementById("likeBtn");
+                    const likeSound = document.getElementById("likeSound1");
+                    likeSound.volume = 0.3;
+                    likeBtn.addEventListener("click", () => {
+                        likeSound.currentTime = 0;
+                        likeSound.play();
+                    });
+                </script>
+                <audio id="dislikeSound" src="audios/Mangle Radio Signal Sound With Subtitles Five Nights At Freddys 2.mp3" hidden></audio>
+                <script>
+                    const dislikeBtn = document.getElementById("dislikeBtn");
+                    const dislikeSound = document.getElementById("dislikeSound");
+                    dislikeSound.volume = 0.1;
+                    dislikeBtn.addEventListener("click", () => {
+                        dislikeSound.currentTime = 0;
+                        dislikeSound.play();
+                    });
+                </script>
             </section>
 
 
