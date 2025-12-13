@@ -21,12 +21,13 @@ header {
     background: #333;
     color: #fff;
     padding: 20px 0;
-    border-radius:60px;
-    position:fixed;
-    top:0;
-    left:0;
-    width:100%;
+    border-radius: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
+   
 .header__wrap img{
    
     height:50px;
@@ -37,6 +38,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap:10px;
 }
 section.container{
     padding: 40px 0;
@@ -71,6 +73,7 @@ footer {
     color: #fff;
     padding: 50px 0;
     border-radius:60px;
+
 }
 
 
@@ -88,26 +91,37 @@ footer {
     justify-content:center;
     font-size:40px;
 }
-body{
-    background-color:antiquewhite;
+body {
+    transition: background-color 0.1s linear;
+    min-height:100vh;
 }
 .name{
     display:flex;
    justify-content:center;
    margin-left:10px;
+   font-size:20px;
 }
 .nav2 ul{
     list-style: none;
     display: flex;
     gap: 15px;
-    justify-content:center;
+    justify-content:end;
    margin-right: 27px;
    color:white;
   
 }
+.nav2{
+    width:100%;
+}
+.footer3{
+    display:flex;
+    align-items:center;
+    width:100%;
+    padding-top:20px;
+}
 .logo{
     display:flex;
-    justify-content:center;
+    justify-content:start;
     padding-top:10px;
 }
     .logo img {
@@ -115,8 +129,8 @@ body{
         width: 80px;
     }
 .footer__foot img {
-    height: 40px;
-    width: 40px;
+    height: 60px;
+    width: 60px;
     border-radius: 50%;
 }
 header:hover {
@@ -141,7 +155,7 @@ main .bacgroundimg {
     background-size: cover;
     background-size: contain;
     padding: 20px;
-    width: 500px;
+    width: 1100px;
     margin: 0 auto;
 }
 .container4 {
@@ -165,7 +179,6 @@ main .bacgroundimg {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 400px;
     padding: 10px;
     flex: 1 1 calc(33.33% - 20px);
     box-sizing: border-box;
@@ -173,7 +186,8 @@ main .bacgroundimg {
 }
 .services {
     width: 100%;
-   max-width: 1200px;
+    max-width: 1200px;
+    padding-left: 320px;
 }
 .services__wrap:hover {
     transform: scale(1.07);
@@ -340,3 +354,566 @@ details summary {
     gap:10px;
     padding:10px;
 }
+.card {
+    display: flex;
+   
+    border: 3px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    background: #fff;
+    min-height: 250px;
+}
+
+.card-image {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    height: auto;
+}
+
+    .card-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+.card-content {
+    padding: 25px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border:1px solid black;
+}
+
+.meta {
+    color: #666;
+    font-size: 14px;
+    display: flex;
+    gap: 8px;
+}
+
+h2 {
+    margin: 10px 0;
+    font-size: 26px;
+}
+
+.subtitle {
+    color: #555;
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    background: #eee;
+    margin: 12px 0;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: #666;
+}
+
+.likes {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+main {
+    display:flex;
+    flex-direction:column;
+    padding-top: 200px;
+    flex: 1;
+}
+.firstsection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    max-width: 1200px;
+    gap:20px;
+    margin:0;
+}
+.cards {
+    width: calc(50% - 10px);
+    box-sizing: border-box;
+   
+}
+@media (max-width: 800px) {
+    .cards {
+        width: 100%;
+    }
+}
+
+    .card:hover {
+        transform: scale(1.7) rotate(-1deg); 
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6); 
+        border-color: red; 
+        transition:all 0.3s;
+    }
+
+        .card:hover .card-content {
+            background-color: rgba(255, 0, 0, 0.1);
+        }
+.box {
+    position: relative;
+}
+
+.line {
+    position: absolute;
+    top: 50%;
+    height: 3px;
+    background: black;
+    width: 98vw; 
+  
+  
+}
+
+/* הכרטיס */
+.scary-card {
+    width: 260px;
+    background: linear-gradient(145deg, #111, #1a0000);
+    border-radius: 20px;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 
+        0 0 20px rgba(255, 0, 0, 0.4),
+        0 0 40px rgba(120, 0, 0, 0.3);
+    transition: 0.4s;
+    position: relative;
+    overflow: hidden;
+  
+}
+
+/* אפקט זוהר */
+.scary-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle, rgba(255,0,0,0.2), transparent 60%);
+    opacity: 0;
+    transition: 0.4s;
+}
+
+/* hover מפחיד */
+.scary-card:hover {
+    transform: scale(1.07);
+    box-shadow:
+        0 0 30px #ff0000,
+        0 0 60px #8b0000;
+}
+
+.scary-card:hover::before {
+    opacity: 1;
+}
+
+/* תמונה */
+.avatar {
+    width: 140px;
+    height: 140px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid #ff0000;
+    box-shadow: 0 0 20px #ff0000;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* שם */
+.scary-card h2 {
+    color: #fff;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+    text-shadow: 0 0 10px red;
+}
+
+/* תפקיד */
+.role {
+    color: #ff4d4d;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.secondsection {
+    display: flex;
+    align-items: center;
+    padding:20px;
+    justify-content:space-between;
+}
+.section3{
+    height:10000px;
+}
+.scary-text {
+    font-family: 'Creepster', cursive; /* פונטים מפחידים */
+    font-size: 60px;
+    color: darkred;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-shadow: 2px 2px 0 black, -2px -2px 0 black, 4px 4px 10px red;
+}
+.bloody-text {
+    font-family: 'Creepster', cursive;
+    font-size: 80px;
+    color: darkred;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+    /* טיפות דם עבור כל אות */
+  
+
+.bloody-text {
+    font-family: 'Creepster', cursive;
+    font-size: 80px;
+    color: darkred;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    position: relative;
+    gap:700px;
+}
+
+    .bloody-text span {
+        position: relative;
+        display: inline-block;
+    }
+
+        /* טיפות דם נופלות */
+        .bloody-text span::after {
+            content: '';
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            width: 10px;
+            height: 10px;
+            background: darkred;
+            border-radius: 50%;
+            animation: drip 1s infinite;
+        }
+
+        .bloody-text span:nth-child(1)::after {
+            animation-delay: 0s;
+        }
+
+        .bloody-text span:nth-child(2)::after {
+            animation-delay: 0.3s;
+        }
+
+        .bloody-text span:nth-child(3)::after {
+            animation-delay: 0.6s;
+        }
+
+@keyframes drip {
+    0% {
+        transform: translateX(-50%) translateY(0) scaleY(1);
+        opacity: 1;
+    }
+
+    50% {
+        transform: translateX(-50%) translateY(20px) scaleY(1.5);
+        opacity: 0.7;
+    }
+
+    100% {
+        transform: translateX(-50%) translateY(50px) scaleY(0.3);
+        opacity: 0;
+    }
+}
+
+
+.section3{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+    padding-bottom:1000px;
+   padding-top:1000px;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px;
+
+    margin: 100px auto;
+}
+.section4__wrap {
+    position: relative;
+    padding: 30px;
+    border: 4px solid darkred;
+    box-shadow: 0 0 20px red, inset 0 0 20px #400;
+    animation: breathe 3s infinite;
+    display:grid;
+}
+.section4{
+    padding-bottom:200px;
+}
+.buttonswrap{
+    display:flex;
+    justify-content:center;
+}
+.buttonswrap h5 {
+    font-family: 'Creepster', cursive; /* אם תרצה גופן מפחיד, אפשר להוסיף מה-Google Fonts */
+    font-size: 60px;
+    color: crimson;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px darkred, 2px 2px 5px black, -2px -2px 5px black;
+    animation: flicker 1.5s infinite;
+}
+
+/* אפקט “רעד קל של אור” */
+@keyframes flicker {
+    0%, 100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.6;
+        text-shadow: 0 0 2px red, 0 0 5px darkred, 1px 1px 2px black;
+    }
+}
+.section4__wrap::before,
+.section4__wrap::after {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 25px;
+    background: crimson;
+    top: 100%;
+    border-radius: 0 0 10px 10px;
+}
+
+.section4__wrap::before {
+    left: 25%;
+    animation: drip 1.5s infinite;
+}
+
+.section4__wrap:after {
+    left: 70%;
+    animation: drip 2.2s infinite;
+}
+
+@keyframes drip {
+    0% {
+        height: 5px;
+        opacity: 0.6;
+    }
+
+    100% {
+        height: 30px;
+        opacity: 1;
+    }
+}
+
+/* נשימה / דופק */
+@keyframes breathe {
+    0%, 100% {
+        box-shadow: 0 0 15px red, inset 0 0 15px #400;
+    }
+
+    50% {
+        box-shadow: 0 0 35px crimson, inset 0 0 25px #600;
+    }
+}
+
+.btn {
+    padding: 20px 40px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    position: relative;
+    letter-spacing: 2px;
+}
+
+/* 🩸 כפתור נוטף דם */
+.blood {
+    background: darkred;
+    box-shadow: 0 0 20px red;
+}
+
+    .blood::after {
+        content: "";
+        position: absolute;
+        bottom: -15px;
+        left: 30%;
+        width: 10px;
+        height: 20px;
+        background: red;
+        border-radius: 50%;
+        animation: drip 1.5s infinite;
+    }
+
+@keyframes drip {
+    0% {
+        height: 5px;
+    }
+
+    100% {
+        height: 25px;
+    }
+}
+
+/* ⚡ כפתור גליץ' */
+.glitch {
+    background: black;
+    border: 2px solid red;
+    text-shadow: 2px 0 red, -2px 0 cyan;
+}
+
+    .glitch:hover {
+        animation: glitch 0.2s infinite;
+    }
+
+@keyframes glitch {
+    0% {
+        transform: translate(0);
+    }
+
+    50% {
+        transform: translate(-2px, 2px);
+    }
+
+    100% {
+        transform: translate(2px, -2px);
+    }
+}
+
+/* ❤️ כפתור פועם */
+.pulse {
+    background: crimson;
+    box-shadow: 0 0 15px crimson;
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* 🪓 כפתור שריטות */
+.scratch {
+    background: #111;
+    border: 2px solid #444;
+}
+
+    .scratch::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: repeating-linear-gradient( 120deg, transparent, transparent 10px, rgba(255,0,0,0.4) 12px );
+        opacity: 0;
+    }
+
+    .scratch:hover::before {
+        opacity: 1;
+    }
+.shake {
+    background: #2b0000;
+    box-shadow: 0 0 15px red;
+}
+
+    .shake:hover {
+        animation: shake 0.1s infinite;
+    }
+
+@keyframes shake {
+    0% {
+        transform: translate(0);
+    }
+
+    25% {
+        transform: translate(-2px, 2px);
+    }
+
+    50% {
+        transform: translate(2px, -2px);
+    }
+
+    75% {
+        transform: translate(-2px, -2px);
+    }
+
+    100% {
+        transform: translate(2px, 2px);
+    }
+}
+
+/* 🔥 כפתור נשרף */
+.burn {
+    background: linear-gradient(45deg, black, darkred);
+    box-shadow: 0 0 10px orange;
+}
+
+    .burn:hover {
+        box-shadow: 0 0 30px orange, 0 0 60px red;
+    }
+
+/* 👁 כפתור עין צופה */
+.eye {
+    background: black;
+    border: 2px solid crimson;
+}
+
+    .eye::after {
+        content: "👁";
+        position: absolute;
+        top: -25px;
+        right: -20px;
+        font-size: 30px;
+        opacity: 0;
+        transition: 0.3s;
+    }
+
+    .eye:hover::after {
+        opacity: 1;
+    }
+
+/* 📺 כפתור סטטי / תקלה */
+.static {
+    background: #111;
+    color: #ccc;
+}
+
+    .static:hover {
+        background: repeating-linear-gradient( 90deg, #000, #000 2px, #222 4px );
+        color: white;
+    }
+
+
+
+#jumpscare {
+    position: absolute;
+    top: 0;
+    left:0;
+    width:100%;
+    height:1oo%;
+    cursor:pointer;
+    visibility: hidden;
+}
+
+   
