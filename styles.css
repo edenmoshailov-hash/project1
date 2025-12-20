@@ -137,7 +137,7 @@ body {
 header:hover {
     transform: scale(1.01);
     transition: all 0.1s;
-    box-shadow: 5px 8px #e26868;
+   
     
 }
 ul a{
