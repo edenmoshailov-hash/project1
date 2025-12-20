@@ -95,6 +95,7 @@ body {
     transition: background-color 0.1s linear;
     min-height:100vh;
 }
+
 .name{
     display:flex;
    justify-content:center;
@@ -270,10 +271,11 @@ details summary {
         padding:20px;
     }
 .moredetails {
-    gap:10px;
+    gap: 10px;
     text-shadow: 0 0 5px #330000;
-    display:flex;
-    justify-content:center;
+    display: flex;
+    justify-content: center;
+    color: blanchedalmond;
 }
 #likeBtn, #dislikeBtn {
     width: 100px;
@@ -925,14 +927,118 @@ main {
     color: blanchedalmond;
 }
 #jumpscarevid {
-    position: fixed; /* נשאר קבוע במסך */
+    position: fixed;
     top: 0;
     left: 0;
-    width: 100vw; /* רוחב כל המסך */
-    height: 100vh; /* גובה כל המסך */
-    object-fit: cover; /* ממלא את המסך בלי עיוות */
-    display: none; /* מוסתר בהתחלה */
-    z-index: 999999; /* מעל כל תוכן אחר */
-    background: black; /* למקרה שהוידאו קצר או נטען לאט */
+    width: 100vw;
+    height: 100vh; 
+    object-fit: cover; 
+    display: none; 
+    z-index: 999999; 
+    background: black; 
 }
+#rickrollvid {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    display: none;
+    z-index: 999999;
+    background: black;
+}
+#musicbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    display: none;
+    z-index: 999999;
+    background: black;
+}
+.main2 {
+    height: 1000px;
+    display: flex;
+    align-items: center;
    
+}
+
+
+
+@keyframes scary-bg {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    25% {
+        background-position: 50% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    75% {
+        background-position: 50% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.body12 {
+    left: 0;
+    top: 0;
+    min-height: 100vh;
+    background: linear-gradient( 270deg, #330000, #660000, #990000, #ff0000, #660000, #330000 );
+    background-size: 1200% 1200%;
+    animation: scary-bg 10s ease infinite;
+}
+}
+.card-content {
+    position: relative;
+    z-index: 1;
+}
+
+    .card-content a {
+        position: relative;
+        z-index: 10;
+        color: mediumturquoise;
+        text-decoration: none;
+    }
+.nbtn {
+    background-color: darkred;
+    color: white;
+    font-weight: bold;
+   
+ 
+    border: 2px solid red;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0 0 10px red;
+    transition: all 0.3s ease;
+}
+
+    .nbtn:hover {
+        background-color: red;
+        box-shadow: 0 0 20px #ff0000;
+        transform: scale(1.1);
+    }
+  
+   
+.services__wrap a {
+    position: relative;
+    z-index: 1;
+}
+
+.services__wrap a {
+    position: relative;
+    z-index: 10;
+    color: maroon;
+    text-decoration: none;
+    padding-top:4px;
+}
