@@ -998,7 +998,7 @@ main {
     background-size: 1200% 1200%;
     animation: scary-bg 10s ease infinite;
 }
-}
+
 .card-content {
     position: relative;
     z-index: 1;
@@ -1042,3 +1042,235 @@ main {
     text-decoration: none;
     padding-top:4px;
 }
+
+
+       
+ .horror-contact-portal-v3-ultra-isolated-main-wrapper {
+            --horror-accent: #ff0000;
+            --horror-bg: #050505;
+            --horror-muted: #666666;
+            
+            display: flex;
+            max-width: 1200px; /* הגדלת הרוחב */
+            margin: 60px auto;
+            background-color: var(--horror-bg);
+            color: #eee;
+            font-family: 'Courier New', Courier, monospace;
+            border: 1px solid #1a1a1a;
+            box-shadow: 0 0 100px rgba(0, 0, 0, 1);
+            position: relative;
+            min-height: 700px; /* הגדלת הגובה */
+        }
+
+        /* צד שמאל - מידע קבוע */
+        .horror-contact-portal-v3-left-sidebar-permanent-info-panel {
+            flex: 1;
+            padding: 60px;
+            background: linear-gradient(135deg, #0a0a0a 0%, #000000 100%);
+            border-right: 1px solid #1a1a1a;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .horror-contact-portal-v3-massive-glitch-title {
+            font-size: 70px;
+            line-height: 0.8;
+            margin-bottom: 40px;
+            text-transform: lowercase;
+            color: #fff;
+            text-shadow: 3px 3px var(--horror-accent);
+        }
+
+        .horror-contact-portal-v3-contact-details-list {
+            list-style: none;
+            padding: 0;
+            margin: 30px 0;
+        }
+
+        .horror-contact-portal-v3-contact-details-list li {
+            margin-bottom: 20px;
+            font-size: 16px;
+            color: var(--horror-muted);
+        }
+
+        .horror-contact-portal-v3-contact-details-list strong {
+            color: var(--horror-accent);
+            display: block;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        /* רשתות חברתיות */
+        .horror-contact-portal-v3-social-media-links-container {
+            margin-top: 30px;
+            display: flex;
+            gap: 20px;
+        }
+
+        .horror-contact-portal-v3-social-link-item {
+            color: #fff;
+            text-decoration: none;
+            font-size: 13px;
+            border-bottom: 1px solid var(--horror-muted);
+            transition: 0.3s;
+        }
+
+        .horror-contact-portal-v3-social-link-item:hover {
+            color: var(--horror-accent);
+            border-color: var(--horror-accent);
+            text-shadow: 0 0 8px var(--horror-accent);
+        }
+
+        /* צד ימין - הטופס הגדול */
+        .horror-contact-portal-v3-right-main-form-content-area {
+            flex: 1.5;
+            padding: 60px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .horror-contact-portal-v3-form-field-wrapper {
+            margin-bottom: 25px;
+        }
+
+        .horror-contact-portal-v3-input-label-text {
+            display: block;
+            font-size: 11px;
+            color: var(--horror-muted);
+            margin-bottom: 8px;
+            text-transform: uppercase;
+        }
+
+        /* עיצוב שדות הקלט */
+        .horror-contact-portal-v3-input-element-field,
+        .horror-contact-portal-v3-textarea-element-field,
+        .horror-contact-portal-v3-select-element-field {
+            width: 100%;
+            background: #0f0f0f;
+            border: 1px solid #222;
+            padding: 18px;
+            color: #fff;
+            font-family: inherit;
+            font-size: 16px;
+            box-sizing: border-box;
+            outline: none;
+            transition: border 0.4s;
+        }
+
+        .horror-contact-portal-v3-input-element-field:focus,
+        .horror-contact-portal-v3-textarea-element-field:focus {
+            border-color: var(--horror-accent);
+            background: #150000;
+        }
+
+        .horror-contact-portal-v3-textarea-element-field {
+            height: 180px; /* שטח תוכן הודעה גדול */
+            resize: vertical;
+        }
+
+        /* כפתור שליחה אימתני */
+        #horror-contact-portal-v3-unique-id-submit-button-trigger {
+            background: #fff;
+            color: #000;
+            border: none;
+            padding: 25px;
+            font-weight: bold;
+            font-size: 18px;
+            cursor: pointer;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            margin-top: 20px;
+        }
+
+        #horror-contact-portal-v3-unique-id-submit-button-trigger:hover {
+            background: var(--horror-accent);
+            color: #fff;
+            box-shadow: 0 0 30px var(--horror-accent);
+            letter-spacing: 8px;
+        }
+
+        /* התאמה לנייד */
+        @media (max-width: 850px) {
+            .horror-contact-portal-v3-ultra-isolated-main-wrapper {
+                flex-direction: column;
+            }
+            .horror-contact-portal-v3-massive-glitch-title { font-size: 50px; }
+        }
+
+      
+       .about-us-industrial-isolated-portal-container-a {
+            --industrial-red: #ff4d4d;
+            --industrial-gray: #1a1a1b;
+            --paper-white: #d1d1d1;
+            
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            max-width: 1100px;
+            margin: 80px auto;
+            background-color: var(--industrial-gray);
+            border: 2px solid #333;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 20px 20px 0px #000;
+        }
+
+        /* הפאנל השמאלי שמחזיק את התמונה */
+        .about-us-industrial-visual-evidence-storage-panel {
+            background: #000;
+            position: relative;
+            min-height: 500px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* עיצוב התמונה עצמה */
+        .about-us-industrial-main-featured-image-element {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* גורם לתמונה למלא את כל הריבוע */
+            filter: grayscale(100%) contrast(150%) brightness(0.6); /* אפקט מפחיד בשחור לבן */
+            opacity: 0.8;
+            transition: transform 0.5s ease, filter 0.5s ease;
+        }
+
+        /* אפקט כשהעכבר על התמונה */
+        .about-us-industrial-main-featured-image-element:hover {
+            filter: grayscale(0%) contrast(120%) brightness(0.8);
+            transform: scale(1.05);
+        }
+
+        /* שכבת "דם" או הילה אדומה מעל התמונה */
+        .about-us-industrial-visual-evidence-storage-panel::after {
+            content: "";
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: linear-gradient(to bottom, transparent, rgba(138, 3, 3, 0.4));
+            pointer-events: none;
+        }
+
+        .about-us-industrial-textual-dossier-information-content {
+            padding: 80px 50px;
+            border-left: 2px solid #333;
+        }
+
+        .about-us-industrial-main-bold-header-title {
+            font-family: 'Impact', sans-serif;
+            font-size: 85px;
+            color: var(--paper-white);
+            margin: 0;
+            line-height: 0.85;
+            text-transform: uppercase;
+        }
+
+        .about-us-industrial-detailed-narrative-paragraph-text {
+            color: #888;
+            font-size: 15px;
+            line-height: 1.8;
+            margin-top: 30px;
+            font-family: 'Courier New', Courier, monospace;
+        }
