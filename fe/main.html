@@ -1,0 +1,534 @@
+﻿<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Health</title>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+
+    <header id="header">
+
+
+        <div class="container">
+            <div class="header__wrap">
+                <div class="header__head">
+                    <img src="images/healthcare.png" alt="google logo" />
+                    <h1>health</h1>
+
+                </div>
+
+                <nav class="nav1">
+                    <ul>
+                        <li><a href="main.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+
+        <script>
+            window.addEventListener('scroll', () => {
+                const scrollY = window.scrollY;
+                const maxScroll = document.body.scrollHeight - window.innerHeight;
+                const percent = Math.min(scrollY / maxScroll, 1);
+
+                // צבע מתחיל אדום בהיר (פחות ורוד)
+                const startRed = 255;
+                const startGreen = 150;
+                const startBlue = 150;
+
+                const red = Math.round(startRed * (1 - percent));
+                const green = Math.round(startGreen * (1 - percent));
+                const blue = Math.round(startBlue * (1 - percent));
+
+                document.body.style.backgroundColor = `rgb(${red}, ${green}, ${blue})`;
+            });
+        </script>
+        <div class="bacgroundimg">
+            <section class="firstsection">
+                <div class="container">
+                    <div class="firstsection__item">
+                        <div class="cards" id="section1">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="images/img1.jpeg" alt="">
+                                </div>
+
+                                <div class="card-content">
+                                    <div class="meta">
+                                        <span>Mar 23, 2023</span>
+                                        <span>•</span>
+                                        <span>1 min read</span>
+                                    </div>
+
+                                    <h2>General Health Articles – Infomed</h2>
+
+                                    <p class="subtitle">
+                                        A collection of professional health articles covering general medicine, prevention, and healthy lifestyle topics.
+                                    </p>
+                                    <a href="https://www.infomed.co.il/contentworlds/general-practitioners/articles/?utm_source=chatgpt.com">to the web</a>
+                                    <button class="nbtn">CLICK ME</button>
+                                    <div class="divider"></div>
+
+                                    <div class="bottom">
+                                        <div class="stats">
+                                            <span>0 views</span>
+                                            <span>0 comments</span>
+                                        </div>
+
+                                        <div class="likes">
+                                            ❤️ 14
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+                        <div class="cards" id="section2">
+                            <div class="container2">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="images/img2.jpg"" alt="">
+                                    </div>
+
+                                    <div class="card-content">
+                                        <div class="meta">
+                                            <span>Mar 23, 2023</span>
+                                            <span>•</span>
+                                            <span>1 min read</span>
+                                        </div>
+
+                                        <h2>Sleep Hygiene: 12 Tips for Better Sleep</h2>
+
+                                        <p class="subtitle">
+
+                                            Explains simple habits that improve sleep quality, such as a fixed sleep schedule, avoiding screens at night, and creating a calm sleep environment.
+                                        </p>
+                                        <a href="https://www.verywellhealth.com/sleep-hygiene-8717173?utm_source=chatgpt.com">to the web</a>
+                                        <button class="nbtn">CLICK ME</button>
+                                        <div class="divider"></div>
+
+                                        <div class="bottom">
+                                            <div class="stats">
+                                                <span>0 views</span>
+                                                <span>0 comments</span>
+                                            </div>
+
+                                            <div class="likes">
+                                                ❤️ 14
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="cards" id="section3">
+                            <div class="container2">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="images/img3.jpg"" alt="">
+                                    </div>
+
+                                    <div class="card-content">
+                                        <div class="meta">
+                                            <span>Mar 23, 2023</span>
+                                            <span>•</span>
+                                            <span>1 min read</span>
+                                        </div>
+
+                                        <h2>Is Sleep or Exercise More Important for Health?</h2>
+
+                                        <p class="subtitle">
+
+                                            Based on a large study, the article shows that good sleep and regular exercise support each other and are both essential for long-term health.
+                                        </p>
+                                        <a href="https://www.eatingwell.com/is-sleep-or-exercise-more-important-study-11870611?utm_source=chatgpt.com">to the web</a>
+                                        <button class="nbtn">CLICK ME</button>
+
+                                        <div class="divider"></div>
+
+                                        <div class="bottom">
+                                            <div class="stats">
+                                                <span>0 views</span>
+                                                <span>0 comments</span>
+                                            </div>
+
+                                            <div class="likes">
+                                                ❤️ 14
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cards" id="section4">
+                            <div class="container2">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="images/img4.jpg" alt="">
+                                    </div>
+
+                                    <div class="card-content">
+                                        <div class="meta">
+                                            <span>Mar 23, 2023</span>
+                                            <span>•</span>
+                                            <span>1 min read</span>
+                                        </div>
+
+                                        <h2>Doctors Warn: Poor Sleep Weakens the Immune System</h2>
+
+                                        <p class="subtitle">
+
+                                            Describes how lack of sleep can reduce immune defense and increase illness risk, especially during flu season.
+                                        </p>
+                                        <a href="https://www.tomsguide.com/wellness/sleep-problems/doctors-warn-this-common-sleep-problem-leaves-you-vulnerable-during-flu-season-heres-how-to-prevent-it?utm_source=chatgpt.com">to the web</a>
+                                        <button class="nbtn">CLICK ME</button>
+
+                                        <div class="divider"></div>
+
+                                        <div class="bottom">
+                                            <div class="stats">
+                                                <span>0 views</span>
+                                                <span>0 comments</span>
+                                            </div>
+
+                                            <div class="likes">
+                                                ❤️ 14
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section class="section2">
+            <div class="container">
+                <div class="secondsection">
+                    <div class="scary-card">
+                        <div class="avatar">
+                            <img src="images/card1.jpg" alt="profile">
+                        </div>
+
+                        <h2>Hippocrates</h2>
+                        <p class="role">Medicine founder</p>
+                    </div>
+                    <div class="scary-card">
+                        <div class="avatar">
+                            <img src="images/card2.avif" alt="profile">
+                        </div>
+
+                        <h2>Florence Nightingale</h2>
+                        <p class="role">Modern nursing</p>
+                    </div> <div class="scary-card">
+                        <div class="avatar">
+                            <img src="images/card3.webp" alt="profile">
+                        </div>
+
+                        <h2>Louis Pasteur</h2>
+                        <p class="role">Germ theory</p>
+                    </div> <div class="scary-card">
+                        <div class="avatar">
+                            <img src="images/card4.jpg" alt="profile">
+                        </div>
+
+                        <h2>Jonas Salk</h2>
+                        <p class="role">Polio vaccine</p>
+                    </div>
+                    <div class="scary-card">
+                        <div class="avatar">
+                            <img src="images/card5.jpg" alt="profile">
+                        </div>
+
+                        <h2>Edward Jenner</h2>
+                        <p class="role">Smallpox vaccine</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="section3">
+            <div class="container3">
+                <div class="section3__wrap">
+                    <div class="scary-text">
+                        <p>hmmm...</p>
+                    </div>
+                    <div class="bloody-text">
+                        <p>the website is over now,are you realy weeling to go down there?</p>
+                    </div>
+                    <div class="bloody-text">
+                        <p>your choice i guess</p>
+                    </div>
+                    <div class="bloody-text">
+                        <span>thats</span> <span>  intresting</span><span>..</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section4">
+            <div class="container">
+                <div class="section4__wrap">
+                    <div class="buttonscontent">
+                        <h5>
+                            sometimes its important to listen.. sometimes not
+                        </h5>
+                    </div>
+                    <div class="buttons">
+                        <button id="scarebtn" class="btn blood">DON'T CLICK</button>
+                        <button class="btn glitch" id="bumpbtn">WARNING</button>
+                        <button id="rickrollbtn" class="btn pulse">ENTER</button>
+                        <button id="laughbtn" class="btn scratch">RUN</button>
+                        <button id="musicboxbtn" class="btn shake">HELP</button>
+                        <button id="burn" class="btn burn">BURN</button>
+                        <button id="fredbtn" class="btn eye">WATCHING</button>
+                        <button id="harbtn" class="btn static">NO SIGNAL</button>
+                    </div>
+                </div>
+                <audio src="audios/Nightmare Fredbear Laugh.mp3" id="fred"></audio>
+                <audio src="audios/Har Har.mp3" id="harhar"></audio>
+                <video src="videos/Shortest Freddy power outage attack in FNAF 1.mp4" id="musicbox"></video>
+                <audio src="audios/Fnaf Freddy Laugh!.mp3" id="laugh">
+                </audio>
+                <video src="videos/Rick Roll (Different link + no ads).mp4" id="rickrollvid"></video>
+                <audio src="audios/Fnaf Nose Honk - Meme Effect Sound.mp4" id="nosebump">
+                </audio>
+                <video src="videos/FNaF 6 Scrap Baby Salvage Jumpscare.mp4" id="jumpscarevid" type="video/mp4">
+                </video>
+                <audio id="scream" src="audios/Fnaf 6 jumpscare sound.mp3" playsinline></audio>
+                <script>
+                    const scarebtn = document.getElementById("scarebtn");
+                    const screamsound = document.getElementById("scream");
+                    screamsound.volume = 1;
+                    scarebtn.addEventListener("click", () => {
+                        screamsound.currentTime = 0;
+                        screamsound.play();
+                    });
+                </script>
+                <script>
+                    const jumpscarevid = document.getElementById("jumpscarevid")
+                    scarebtn.addEventListener("click", () => {
+                        screamsound.currentTime = 0;
+                        screamsound.play();
+                    });
+                    scarebtn.addEventListener("click", () => {
+                        jumpscarevid.style.display = "block";
+                        jumpscarevid.currentTime = 0;
+                        jumpscarevid.play();
+                    });
+                    jumpscarevid.addEventListener("ended", () => {
+                        jumpscarevid.style.display = "none";
+                    });
+                </script>
+                <script>
+                    const bumpbtn = document.getElementById("bumpbtn");
+                    const nosebump = document.getElementById("nosebump");
+                    nosebump.volume = 1;
+                    bumpbtn.addEventListener("click", () => {
+                        nosebump.currentTime = 0;
+                        nosebump.play();
+                    });
+                </script>
+                <script>
+                    const rickrollvid = document.getElementById("rickrollvid")
+                    rickrollbtn.addEventListener("click", () => {
+                        screamsound.currentTime = 0;
+                        screamsound.play();
+                    });
+                    rickrollbtn.addEventListener("click", () => {
+                        rickrollvid.style.display = "block";
+                        rickrollvid.currentTime = 0;
+                        rickrollvid.play();
+                    });
+                    rickrollvid.addEventListener("ended", () => {
+                        rickrollvid.style.display = "none";
+                    });
+                </script>
+                <script>
+                    const laughbtn = document.getElementById("laughbtn");
+                    const laugh = document.getElementById("laugh");
+                    laugh.volume = 0.3;
+                    laughbtn.addEventListener("click", () => {
+                        laugh.currentTime = 0;
+                        laugh.play();
+                    });
+                </script>
+                <script>
+                    const musicbox = document.getElementById("musicbox")
+                    musicboxbtn.addEventListener("click", () => {
+                        screamsound.currentTime = 0;
+                        screamsound.play();
+                    });
+                    musicboxbtn.addEventListener("click", () => {
+                        musicbox.style.display = "block";
+                        musicbox.currentTime = 0;
+                        musicbox.play();
+                    });
+                    musicbox.addEventListener("ended", () => {
+                        musicbox.style.display = "none";
+                    });
+                </script>
+                <script>
+                    const harbtn = document.getElementById("harbtn");
+                    const harhar = document.getElementById("harhar");
+                    harhar.volume = 1;
+                    harbtn.addEventListener("click", () => {
+                        harhar.currentTime = 0;
+                        harhar.play();
+                    });
+                </script>
+                <script>
+                    const fredbtn = document.getElementById("fredbtn");
+                    const fred = document.getElementById("fred");
+                    fred.volume = 0.15;
+                    fredbtn.addEventListener("click", () => {
+                        fred.currentTime = 0;
+                        fred.play();
+                    });
+                </script>
+                <script>
+                    document.getElementById("burn").onclick = () => {
+                        window.location.href = "index2.html";
+                    };
+                </script>
+            </div>
+        </section>
+        <section class="services" id="section5">
+            <div class="container">
+                <div class="servicestitle">
+                    <h5>our best services!</h5>
+                    <p>we always make sure our costumer has the best service and doesnt <strong>lose his mind</strong>!</p>
+                </div>
+                <div class="services__topwrap">
+
+                    <div class="services__wrap">
+                        <img src="images/24-7.png" alt="24/7" />
+                        <h4>24/7</h4>
+                        <button class="nbtn">CLICK ME</button>
+                        <a href="https://support.apple.com/">to the web</a>
+                        <p>we are always availebale</p>
+                    </div>
+                    <div class="services__wrap">
+                        <img src="images/self-service.png" alt="self service" />
+                        <h4>self service</h4>
+                        <button class="nbtn">CLICK ME</button>
+                        <a href="https://support.apple.com/">to the web</a>
+                        <p>go help yourself</p>
+                    </div>
+                    <div class="services__wrap">
+                        <img src="images/customer-service.png" alt="customer service" />
+                        <h4>customer service</h4>
+                        <button class="nbtn">CLICK ME</button>
+                        <a href="https://support.apple.com/">to the web</a>
+                        <p>all for one is fantastico</p>
+                    </div>
+                    <div class="services__wrap">
+                        <img src="images/digital-services.png" alt="digital services" />
+                        <h4>digital services</h4>
+                        <button class="nbtn">CLICK ME</button>
+                        <a href="https://support.apple.com/">to the web</a>
+                        <p>we love to help</p>
+                    </div>
+                    <div class="services__wrap">
+                        <img src="images/support.png" alt="support" />
+                        <h4>support</h4>
+                        <button class="nbtn">CLICK ME</button>
+                        <a href="https://support.apple.com/">to the web</a>
+                        <p>we are ready to send you support</p>
+                    </div>
+                    <div class="services__wrap">
+                        <img src="images/technical-support.png" alt="technical support" />
+                        <h4>technical support</h4>
+                        <button class="nbtn">CLICK ME</button>
+                        <a href="https://support.apple.com/">to the web</a>
+                        <p>we will fix your problem</p>
+                    </div>
+                </div>
+
+                <details>
+                    <summary>more</summary>
+                </details>
+                <div class="moredetails">
+                    <span class="date">11/12/2025</span>
+                    <span class="time">14:30</span>
+                    <span class="views">views: 1234</span>
+                </div>
+                <div class="likebutton">
+                    <button id="likeBtn" oneclick="audio.play();">Like</button>
+                    <button id="dislikeBtn">Dislike</button>
+                </div>
+
+                <audio id="likeSound1" src="audios/Fnaf 2 6：AM.mp3" hidden></audio>
+                <script>
+                    const likeBtn = document.getElementById("likeBtn");
+                    const likeSound = document.getElementById("likeSound1");
+                    likeSound.volume = 0.3;
+                    likeBtn.addEventListener("click", () => {
+                        likeSound.currentTime = 0;
+                        likeSound.play();
+                    });
+                </script>
+                <audio id="dislikeSound" src="audios/Mangle Radio Signal Sound With Subtitles Five Nights At Freddys 2.mp3" hidden></audio>
+                <script>
+                    const dislikeBtn = document.getElementById("dislikeBtn");
+                    const dislikeSound = document.getElementById("dislikeSound");
+                    dislikeSound.volume = 0.1;
+                    dislikeBtn.addEventListener("click", () => {
+                        dislikeSound.currentTime = 0;
+                        dislikeSound.play();
+                    });
+                </script>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+
+            <div class="footer3">
+                <div class="logo">
+                    <img src="images/healthcare.png" alt="google logo" />
+                </div>
+                <nav class="nav2">
+                    <ul>
+                        <li><a href="main.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer1">
+                <h5>follow us!</h5>
+            </div>
+            <div class="footer__foot">
+                <a href="https://www.facebook.com/login/web/?email=0524747376&is_from_lara=1">   <img src="images/facebook.png" alt="facebook logo" target="_blank"></a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="images/instagram.png" alt="instegram logo" />
+                </a>
+                <a href="https://www.tiktok.com/explore" target="_blank">  <img src="images/tik-tok.png" alt="tiktok logo" /></a>
+            </div>
+            <div class="name">
+                <p>eden moshailov </p>
+            </div>
+
+
+
+        </div>
+    </footer>
+    
+</body>
+</html>

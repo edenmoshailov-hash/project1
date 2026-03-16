@@ -1,0 +1,1276 @@
+﻿header.container {
+ 
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+.nav1 ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+   justify-content:flex-end;
+   width:90%;
+   align-items:center;
+}
+header.container h1 {
+    margin-bottom: 50px;
+    display:flex;
+}
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    border-radius: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index:10000;
+}
+   
+.header__wrap img{
+   
+    height:50px;
+    width:50px;
+}
+.header__head {
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:10px;
+}
+section.container{
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+img {
+    max-width: 100%;
+    height: 300px;
+    width:500px;
+}
+footer.container {
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container{
+    width:90%;
+    max-width:1200px;
+    margin: 0 auto;
+}
+.header__wrap{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+footer {
+    background: #333;
+    color: #fff;
+    padding: 50px 0;
+    border-radius:60px;
+
+}
+
+
+
+.footer__foot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:15px;
+    padding-top:10px;
+    margin-left:7px;
+}
+.footer1{
+    display:flex;           
+    justify-content:center;
+    font-size:40px;
+}
+body {
+    transition: background-color 0.1s linear;
+    min-height:100vh;
+}
+
+.name{
+    display:flex;
+   justify-content:center;
+   margin-left:10px;
+   font-size:20px;
+}
+.nav2 ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    justify-content:end;
+   margin-right: 27px;
+   color:white;
+  
+}
+.nav2{
+    width:100%;
+}
+.footer3{
+    display:flex;
+    align-items:center;
+    width:100%;
+    padding-top:20px;
+}
+.logo{
+    display:flex;
+    justify-content:start;
+    padding-top:10px;
+}
+    .logo img {
+        height: 80px;
+        width: 80px;
+    }
+.footer__foot img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+header:hover {
+    transform: scale(1.01);
+    transition: all 0.1s;
+   
+    
+}
+ul a{
+    color:aliceblue;
+    font-size:20px;
+    text-decoration:none;
+}
+    ul a:hover {
+        transform: scale(1.1);
+        transition: all 0.3s;
+        color: #e26868;
+    }
+main .bacgroundimg {
+    background-image: url('images/healthcare.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: contain;
+    padding: 20px;
+    width: 1100px;
+    margin: 0 auto;
+}
+.services__topwrap {
+    width: 90%;
+    max-width: 1200px;
+    gap: 10px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+   
+}
+.services__wrap img{
+    height:100px;
+    width:100px;
+ 
+}
+.services__wrap {
+    background-color: gray;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    flex: 1 1 calc(33.33% - 20px);
+    box-sizing: border-box;
+   border:1px solid black;
+}
+
+.services__wrap:hover {
+    transform: scale(1.07);
+    transition: all 0.3s;
+    background: #ff0000;
+    box-shadow: 0 0 25px #ff0000, 0 0 40px #b30000;
+    text-shadow: 0 0 20px #ffffff;
+}
+h5 {
+    font-size: 60px;
+    color: #ff0000; 
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Creepster', cursive;
+    text-shadow: 2px 2px 0 #000, 4px 4px 5px #330000, 0 0 10px #ff0000, 0 0 20px #ff0000;
+    animation: shake 0.5s infinite alternate;
+}
+@keyframes shake {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    25% {
+        transform: translate(-5px, 2px);
+    }
+
+    50% {
+        transform: translate(5px, -2px);
+    }
+
+    75% {
+        transform: translate(-5px, 2px);
+    }
+
+    100% {
+        transform: translate(5px, -2px);
+    }
+}
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 5px #ff0000, 0 0 20px #ff0000, 0 0 40px #330000;
+    }
+
+    100% {
+        text-shadow: 0 0 20px #ff0000, 0 0 40px #ff0000, 0 0 60px #330000;
+    }
+}
+.servicestitle{
+    display:flex;
+    align-items:center;
+        flex-direction:column;
+        font-size:20px;
+}
+.servicestitle p{
+    margin-top:0;
+
+}
+details summary {
+    background: linear-gradient(145deg, #4a0000, #b30000);
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 2px;
+    text-shadow: 0 0 10px #ff0000;
+    box-shadow: 0 0 15px #ff0000;
+    transition: 0.3s ease;
+    font-family: 'Arial';
+    display:flex;
+    justify-content:center;
+}
+    details summary:hover {
+        background: #ff0000;
+        box-shadow: 0 0 25px #ff0000, 0 0 40px #b30000;
+        text-shadow: 0 0 20px #ffffff;
+        transform: scale(1.05);
+    }
+    details{
+        padding:20px;
+    }
+.moredetails {
+    gap: 10px;
+    text-shadow: 0 0 5px #330000;
+    display: flex;
+    justify-content: center;
+    color: blanchedalmond;
+}
+#likeBtn, #dislikeBtn {
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgba(255, 0, 0, 0.4);
+    background: linear-gradient(180deg, #1a1a1a, #0d0d0d);
+    color: #ff4d4d;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 14px;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.15);
+    transition: 0.2s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+
+    #likeBtn:hover, #dislikeBtn:hover {
+        box-shadow: 0 0 30px rgba(255, 0, 0, 0.4);
+        transform: scale(1.05);
+    }
+
+   
+    #likeBtn:active, #dislikeBtn:active {
+        animation: shake 0.3s linear;
+    }
+
+ 
+    #likeBtn::after, #dislikeBtn::after {
+        content: "";
+        position: absolute;
+        top: -20px;
+        left: 50%;
+        width: 8px;
+        height: 120px;
+        background: linear-gradient( 180deg, rgba(255, 0, 0, 0.8), rgba(255, 0, 0, 0.2), transparent );
+        border-radius: 4px;
+        transform: translateX(-50%);
+        opacity: 0;
+        transition: 0.3s ease;
+        display:flex;
+        align-items:center;
+    }
+
+    #likeBtn:hover::after, #dislikeBtn:hover::after {
+        opacity: 1;
+    }
+
+
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-4px);
+    }
+
+    50% {
+        transform: translateX(4px);
+    }
+
+    75% {
+        transform: translateX(-3px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+.likebutton{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    padding:10px;
+}
+.card {
+    display: flex;
+   
+    border: 3px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    background: #fff;
+    min-height: 250px;
+}
+
+.card-image {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    height: auto;
+}
+
+    .card-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+.card-content {
+    padding: 25px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border:1px solid black;
+}
+
+.meta {
+    color: #666;
+    font-size: 14px;
+    display: flex;
+    gap: 8px;
+}
+
+h2 {
+    margin: 10px 0;
+    font-size: 26px;
+}
+
+.subtitle {
+    color: #555;
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    background: #eee;
+    margin: 12px 0;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: #666;
+}
+
+.likes {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+main {
+    display:flex;
+    flex-direction:column;
+    padding-top: 200px;
+    flex: 1;
+}
+.firstsection {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    max-width: 1200px;
+    gap: 20px;
+    border: 4px solid #5b0000;
+    border-radius: 6px;
+    box-shadow: 0 0 8px #8b0000, 0 0 20px #3a0000, inset 0 0 12px #000, inset 0 0 25px #1a0000;
+    animation: pulse 1.8s infinite;
+}
+    
+
+/* אנימציית פעימה */
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 5px red, 0 0 15px darkred, inset 0 0 10px black;
+    }
+
+    50% {
+        box-shadow: 0 0 15px crimson, 0 0 40px darkred, inset 0 0 20px black;
+    }
+
+    100% {
+        box-shadow: 0 0 5px red, 0 0 15px darkred, inset 0 0 10px black;
+    }
+}
+.firstsection__item{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.cards {
+    width: calc(50% - 10px);
+    box-sizing: border-box;
+   
+}
+@media (max-width: 800px) {
+    .cards {
+        width: 100%;
+    }
+}
+
+    .card:hover {
+        transform: scale(1.7) rotate(-1deg); 
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6); 
+        border-color: red; 
+        transition:all 0.3s;
+    }
+
+        .card:hover .card-content {
+            background-color: rgba(255, 0, 0, 0.1);
+        }
+
+
+
+
+/* הכרטיס */
+.scary-card {
+    width: 260px;
+    background: linear-gradient(145deg, #111, #1a0000);
+    border-radius: 20px;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 
+        0 0 20px rgba(255, 0, 0, 0.4),
+        0 0 40px rgba(120, 0, 0, 0.3);
+    transition: 0.4s;
+    position: relative;
+    overflow: hidden;
+  
+}
+
+/* אפקט זוהר */
+.scary-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle, rgba(255,0,0,0.2), transparent 60%);
+    opacity: 0;
+    transition: 0.4s;
+}
+
+/* hover מפחיד */
+.scary-card:hover {
+    transform: scale(1.07);
+    box-shadow:
+        0 0 30px #ff0000,
+        0 0 60px #8b0000;
+}
+
+.scary-card:hover::before {
+    opacity: 1;
+}
+
+/* תמונה */
+.avatar {
+    width: 140px;
+    height: 140px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid #ff0000;
+    box-shadow: 0 0 20px #ff0000;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* שם */
+.scary-card h2 {
+    color: #fff;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+    text-shadow: 0 0 10px red;
+}
+
+/* תפקיד */
+.role {
+    color: #ff4d4d;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.secondsection {
+    display: flex;
+    align-items: center;
+    padding-bottom:20px;
+   gap:50px;
+}
+.section2 {
+    padding-top: 50px;
+    border-bottom: 4px solid black;
+}
+.section3 {
+    height: 10000px;
+    padding-bottom: 1000px;
+    padding-top: 1000px;
+   display:flex;
+}
+.section3__wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+   height:100%;
+    
+}
+.container3 {
+
+  max-height:100%;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.scary-text {
+    font-family: 'Creepster', cursive; /* פונטים מפחידים */
+    font-size: 60px;
+    color: darkred;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-shadow: 2px 2px 0 black, -2px -2px 0 black, 4px 4px 10px red;
+}
+
+
+    /* טיפות דם עבור כל אות */
+  
+
+.bloody-text {
+    font-family: 'Creepster', cursive;
+    font-size: 80px;
+    color: darkred;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    position: relative;
+    text-align:center;
+}
+
+    .bloody-text span {
+        position: relative;
+        display: inline-block;
+    }
+
+        /* טיפות דם נופלות */
+        .bloody-text span::after {
+            content: '';
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            width: 10px;
+            height: 10px;
+            background: darkred;
+            border-radius: 50%;
+            animation: drip 1s infinite;
+        }
+
+        .bloody-text span:nth-child(1)::after {
+            animation-delay: 0s;
+        }
+
+        .bloody-text span:nth-child(2)::after {
+            animation-delay: 0.3s;
+        }
+
+        .bloody-text span:nth-child(3)::after {
+            animation-delay: 0.6s;
+        }
+
+@keyframes drip {
+    0% {
+        transform: translateX(-50%) translateY(0) scaleY(1);
+        opacity: 1;
+    }
+
+    50% {
+        transform: translateX(-50%) translateY(20px) scaleY(1.5);
+        opacity: 0.7;
+    }
+
+    100% {
+        transform: translateX(-50%) translateY(50px) scaleY(0.3);
+        opacity: 0;
+    }
+}
+
+
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px;
+
+    margin: 100px auto;
+}
+.section4__wrap {
+    position: relative;
+    padding: 30px;
+    border: 4px solid darkred;
+    box-shadow: 0 0 20px red, inset 0 0 20px #400;
+    animation: breathe 3s infinite;
+    display:grid;
+}
+.section4{
+    padding-bottom:200px;
+}
+.buttonswrap{
+    display:flex;
+    justify-content:center;
+}
+.buttonswrap h5 {
+    font-family: 'Creepster', cursive; /* אם תרצה גופן מפחיד, אפשר להוסיף מה-Google Fonts */
+    font-size: 60px;
+    color: crimson;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px darkred, 2px 2px 5px black, -2px -2px 5px black;
+    animation: flicker 1.5s infinite;
+}
+
+/* אפקט “רעד קל של אור” */
+@keyframes flicker {
+    0%, 100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.6;
+        text-shadow: 0 0 2px red, 0 0 5px darkred, 1px 1px 2px black;
+    }
+}
+.section4__wrap::before,
+.section4__wrap::after {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 25px;
+    background: crimson;
+    top: 100%;
+    border-radius: 0 0 10px 10px;
+}
+
+.section4__wrap::before {
+    left: 25%;
+    animation: drip 1.5s infinite;
+}
+
+.section4__wrap:after {
+    left: 70%;
+    animation: drip 2.2s infinite;
+}
+
+@keyframes drip {
+    0% {
+        height: 5px;
+        opacity: 0.6;
+    }
+
+    100% {
+        height: 30px;
+        opacity: 1;
+    }
+}
+
+/* נשימה / דופק */
+@keyframes breathe {
+    0%, 100% {
+        box-shadow: 0 0 15px red, inset 0 0 15px #400;
+    }
+
+    50% {
+        box-shadow: 0 0 35px crimson, inset 0 0 25px #600;
+    }
+}
+
+.btn {
+    padding: 20px 40px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    position: relative;
+    letter-spacing: 2px;
+}
+
+/* 🩸 כפתור נוטף דם */
+.blood {
+    background: darkred;
+    box-shadow: 0 0 20px red;
+}
+
+    .blood::after {
+        content: "";
+        position: absolute;
+        bottom: -15px;
+        left: 30%;
+        width: 10px;
+        height: 20px;
+        background: red;
+        border-radius: 50%;
+        animation: drip 1.5s infinite;
+    }
+
+@keyframes drip {
+    0% {
+        height: 5px;
+    }
+
+    100% {
+        height: 25px;
+    }
+}
+
+/* ⚡ כפתור גליץ' */
+.glitch {
+    background: black;
+    border: 2px solid red;
+    text-shadow: 2px 0 red, -2px 0 cyan;
+}
+
+    .glitch:hover {
+        animation: glitch 0.2s infinite;
+    }
+
+@keyframes glitch {
+    0% {
+        transform: translate(0);
+    }
+
+    50% {
+        transform: translate(-2px, 2px);
+    }
+
+    100% {
+        transform: translate(2px, -2px);
+    }
+}
+
+/* ❤️ כפתור פועם */
+.pulse {
+    background: crimson;
+    box-shadow: 0 0 15px crimson;
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* 🪓 כפתור שריטות */
+.scratch {
+    background: #111;
+    border: 2px solid #444;
+}
+
+    .scratch::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: repeating-linear-gradient( 120deg, transparent, transparent 10px, rgba(255,0,0,0.4) 12px );
+        opacity: 0;
+    }
+
+    .scratch:hover::before {
+        opacity: 1;
+    }
+.shake {
+    background: #2b0000;
+    box-shadow: 0 0 15px red;
+}
+
+    .shake:hover {
+        animation: shake 0.1s infinite;
+    }
+
+@keyframes shake {
+    0% {
+        transform: translate(0);
+    }
+
+    25% {
+        transform: translate(-2px, 2px);
+    }
+
+    50% {
+        transform: translate(2px, -2px);
+    }
+
+    75% {
+        transform: translate(-2px, -2px);
+    }
+
+    100% {
+        transform: translate(2px, 2px);
+    }
+}
+
+/* 🔥 כפתור נשרף */
+.burn {
+    background: linear-gradient(45deg, black, darkred);
+    box-shadow: 0 0 10px orange;
+}
+
+    .burn:hover {
+        box-shadow: 0 0 30px orange, 0 0 60px red;
+    }
+
+/* 👁 כפתור עין צופה */
+.eye {
+    background: black;
+    border: 2px solid crimson;
+}
+
+    .eye::after {
+        content: "👁";
+        position: absolute;
+        top: -25px;
+        right: -20px;
+        font-size: 30px;
+        opacity: 0;
+        transition: 0.3s;
+    }
+
+    .eye:hover::after {
+        opacity: 1;
+    }
+
+/* 📺 כפתור סטטי / תקלה */
+.static {
+    background: #111;
+    color: #ccc;
+}
+
+    .static:hover {
+        background: repeating-linear-gradient( 90deg, #000, #000 2px, #222 4px );
+        color: white;
+    }
+.servicestitle p {
+    color: blanchedalmond;
+}
+#jumpscarevid {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh; 
+    object-fit: cover; 
+    display: none; 
+    z-index: 999999; 
+    background: black; 
+}
+#rickrollvid {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    display: none;
+    z-index: 999999;
+    background: black;
+}
+#musicbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    display: none;
+    z-index: 999999;
+    background: black;
+}
+.main2 {
+    height: 1000px;
+    display: flex;
+    align-items: center;
+   
+}
+
+
+
+@keyframes scary-bg {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    25% {
+        background-position: 50% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    75% {
+        background-position: 50% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.body12 {
+    left: 0;
+    top: 0;
+    min-height: 100vh;
+    background: linear-gradient( 270deg, #330000, #660000, #990000, #ff0000, #660000, #330000 );
+    background-size: 1200% 1200%;
+    animation: scary-bg 10s ease infinite;
+}
+
+.card-content {
+    position: relative;
+    z-index: 1;
+}
+
+    .card-content a {
+        position: relative;
+        z-index: 10;
+        color: mediumturquoise;
+        text-decoration: none;
+    }
+.nbtn {
+    background-color: darkred;
+    color: white;
+    font-weight: bold;
+   
+ 
+    border: 2px solid red;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0 0 10px red;
+    transition: all 0.3s ease;
+}
+
+    .nbtn:hover {
+        background-color: red;
+        box-shadow: 0 0 20px #ff0000;
+        transform: scale(1.1);
+    }
+  
+   
+.services__wrap a {
+    position: relative;
+    z-index: 1;
+}
+
+.services__wrap a {
+    position: relative;
+    z-index: 10;
+    color: maroon;
+    text-decoration: none;
+    padding-top:4px;
+}
+
+
+       
+ .horror-contact-portal-v3-ultra-isolated-main-wrapper {
+            --horror-accent: #ff0000;
+            --horror-bg: #050505;
+            --horror-muted: #666666;
+            
+            display: flex;
+            max-width: 1200px; /* הגדלת הרוחב */
+            margin: 60px auto;
+            background-color: var(--horror-bg);
+            color: #eee;
+            font-family: 'Courier New', Courier, monospace;
+            border: 1px solid #1a1a1a;
+            box-shadow: 0 0 100px rgba(0, 0, 0, 1);
+            position: relative;
+            min-height: 700px; /* הגדלת הגובה */
+        }
+
+        /* צד שמאל - מידע קבוע */
+        .horror-contact-portal-v3-left-sidebar-permanent-info-panel {
+            flex: 1;
+            padding: 60px;
+            background: linear-gradient(135deg, #0a0a0a 0%, #000000 100%);
+            border-right: 1px solid #1a1a1a;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .horror-contact-portal-v3-massive-glitch-title {
+            font-size: 70px;
+            line-height: 0.8;
+            margin-bottom: 40px;
+            text-transform: lowercase;
+            color: #fff;
+            text-shadow: 3px 3px var(--horror-accent);
+        }
+
+        .horror-contact-portal-v3-contact-details-list {
+            list-style: none;
+            padding: 0;
+            margin: 30px 0;
+        }
+
+        .horror-contact-portal-v3-contact-details-list li {
+            margin-bottom: 20px;
+            font-size: 16px;
+            color: var(--horror-muted);
+        }
+
+        .horror-contact-portal-v3-contact-details-list strong {
+            color: var(--horror-accent);
+            display: block;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        /* רשתות חברתיות */
+        .horror-contact-portal-v3-social-media-links-container {
+            margin-top: 30px;
+            display: flex;
+            gap: 20px;
+        }
+
+        .horror-contact-portal-v3-social-link-item {
+            color: #fff;
+            text-decoration: none;
+            font-size: 13px;
+            border-bottom: 1px solid var(--horror-muted);
+            transition: 0.3s;
+        }
+
+        .horror-contact-portal-v3-social-link-item:hover {
+            color: var(--horror-accent);
+            border-color: var(--horror-accent);
+            text-shadow: 0 0 8px var(--horror-accent);
+        }
+
+        /* צד ימין - הטופס הגדול */
+        .horror-contact-portal-v3-right-main-form-content-area {
+            flex: 1.5;
+            padding: 60px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .horror-contact-portal-v3-form-field-wrapper {
+            margin-bottom: 25px;
+        }
+
+        .horror-contact-portal-v3-input-label-text {
+            display: block;
+            font-size: 11px;
+            color: var(--horror-muted);
+            margin-bottom: 8px;
+            text-transform: uppercase;
+        }
+
+        /* עיצוב שדות הקלט */
+        .horror-contact-portal-v3-input-element-field,
+        .horror-contact-portal-v3-textarea-element-field,
+        .horror-contact-portal-v3-select-element-field {
+            width: 100%;
+            background: #0f0f0f;
+            border: 1px solid #222;
+            padding: 18px;
+            color: #fff;
+            font-family: inherit;
+            font-size: 16px;
+            box-sizing: border-box;
+            outline: none;
+            transition: border 0.4s;
+        }
+
+        .horror-contact-portal-v3-input-element-field:focus,
+        .horror-contact-portal-v3-textarea-element-field:focus {
+            border-color: var(--horror-accent);
+            background: #150000;
+        }
+
+        .horror-contact-portal-v3-textarea-element-field {
+            height: 180px; /* שטח תוכן הודעה גדול */
+            resize: vertical;
+        }
+
+        /* כפתור שליחה אימתני */
+        #horror-contact-portal-v3-unique-id-submit-button-trigger {
+            background: #fff;
+            color: #000;
+            border: none;
+            padding: 25px;
+            font-weight: bold;
+            font-size: 18px;
+            cursor: pointer;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            margin-top: 20px;
+        }
+
+        #horror-contact-portal-v3-unique-id-submit-button-trigger:hover {
+            background: var(--horror-accent);
+            color: #fff;
+            box-shadow: 0 0 30px var(--horror-accent);
+            letter-spacing: 8px;
+        }
+
+        /* התאמה לנייד */
+        @media (max-width: 850px) {
+            .horror-contact-portal-v3-ultra-isolated-main-wrapper {
+                flex-direction: column;
+            }
+            .horror-contact-portal-v3-massive-glitch-title { font-size: 50px; }
+        }
+
+      
+       .about-us-industrial-isolated-portal-container-a {
+            --industrial-red: #ff4d4d;
+            --industrial-gray: #1a1a1b;
+            --paper-white: #d1d1d1;
+            
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            max-width: 1100px;
+            margin: 80px auto;
+            background-color: var(--industrial-gray);
+            border: 2px solid #333;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 20px 20px 0px #000;
+        }
+
+        /* הפאנל השמאלי שמחזיק את התמונה */
+        .about-us-industrial-visual-evidence-storage-panel {
+            background: #000;
+            position: relative;
+            min-height: 500px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* עיצוב התמונה עצמה */
+        .about-us-industrial-main-featured-image-element {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* גורם לתמונה למלא את כל הריבוע */
+            filter: grayscale(100%) contrast(150%) brightness(0.6); /* אפקט מפחיד בשחור לבן */
+            opacity: 0.8;
+            transition: transform 0.5s ease, filter 0.5s ease;
+        }
+
+        /* אפקט כשהעכבר על התמונה */
+        .about-us-industrial-main-featured-image-element:hover {
+            filter: grayscale(0%) contrast(120%) brightness(0.8);
+            transform: scale(1.05);
+        }
+
+        /* שכבת "דם" או הילה אדומה מעל התמונה */
+        .about-us-industrial-visual-evidence-storage-panel::after {
+            content: "";
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: linear-gradient(to bottom, transparent, rgba(138, 3, 3, 0.4));
+            pointer-events: none;
+        }
+
+        .about-us-industrial-textual-dossier-information-content {
+            padding: 80px 50px;
+            border-left: 2px solid #333;
+        }
+
+        .about-us-industrial-main-bold-header-title {
+            font-family: 'Impact', sans-serif;
+            font-size: 85px;
+            color: var(--paper-white);
+            margin: 0;
+            line-height: 0.85;
+            text-transform: uppercase;
+        }
+
+        .about-us-industrial-detailed-narrative-paragraph-text {
+            color: #888;
+            font-size: 15px;
+            line-height: 1.8;
+            margin-top: 30px;
+            font-family: 'Courier New', Courier, monospace;
+        }
