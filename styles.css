@@ -1274,3 +1274,32 @@ main {
             margin-top: 30px;
             font-family: 'Courier New', Courier, monospace;
         }
+
+        .shop-button-gradient {
+  background: linear-gradient(45deg, #ff416c, #ff4b2b); /* אדום לכתום */
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase; /* הכל אותיות גדולות */
+  letter-spacing: 1px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 6px 20px rgba(255, 75, 43, 0.5); /* צל בצבע הכתום */
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.shop-button-gradient:hover {
+  box-shadow: 0 8px 25px rgba(255, 75, 43, 0.7); /* צל חזק יותר */
+  transform: scale(1.05); /* הגדלה קלה של הכפתור */
+}
+
+.shop-button-gradient:active {
+  transform: scale(0.98); /* כיווץ קל בלחיצה */
+}
+.shopbtn{
+     display: flex;
+     justify-content:center;
+     padding: 30px;
+}

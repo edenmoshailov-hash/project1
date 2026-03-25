@@ -343,11 +343,7 @@
                     });
                 </script>
                 <script>
-                    const rickrollvid = document.getElementById("rickrollvid")
-                    rickrollbtn.addEventListener("click", () => {
-                        screamsound.currentTime = 0;
-                        screamsound.play();
-                    });
+                    
                     rickrollbtn.addEventListener("click", () => {
                         rickrollvid.style.display = "block";
                         rickrollvid.currentTime = 0;
@@ -469,6 +465,10 @@
                 <div class="likebutton">
                     <button id="likeBtn" oneclick="audio.play();">Like</button>
                     <button id="dislikeBtn">Dislike</button>
+                </div>
+                <div class="shopbtn">
+                    <a href="shop.html"> <button class="shop-button-gradient">SHOP</button></a>
+                    
                 </div>
 
                 <audio id="likeSound1" src="audios/Fnaf 2 6：AM.mp3" hidden></audio>

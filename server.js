@@ -23,6 +23,16 @@ app.post("/submit", (req, res) => {
 
     res.json({ message: "השרת קיבל את המידע!" });
 });
+
+app.use(express.static('public'));
+
+// Endpoint to receive product ID
+app.post('/product', (req, res) => {
+  const { id } = req.body;
+  console.log('Received product ID:', id); // print ID in server console
+  res.json({ message: `Product with ID ${id} received on server` });
+});
+
 // הפעלת השרת
 app.listen(port, () => {
     console.log(`השרת רץ: http://localhost:${port}`);
